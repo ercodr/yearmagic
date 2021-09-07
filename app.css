@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gill Sans MT'; */
+    font-family: poppins;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    cursor: default;
+}
+
+/* HEADER CONTENT */
+header{
+    background: #0079AB;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100vw;
+    color: #fff;
+    min-width: 248px;
+}
+
+/* MAIN CONTENT */
+main{
+    background: #000C11;
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    min-width: 248px;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.content{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    color: #fff;
+}
+
+.display{
+    background: #fff;
+    height: 20vh;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 16px;
+    flex-direction: column;
+    color: #000C11;
+    font-weight: bold;
+}
+
+#yob{
+    font-size: 25px;
+}
+
+.form input{
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    height: 6.5vh;
+    color: #000C11;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form button{
+    background: transparent;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
+    color: #fff;
+}
