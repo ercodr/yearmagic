@@ -33,7 +33,7 @@ header{
 /* MAIN CONTENT */
 main{
     background: #000C11;
-    height: 92vh;
+    height: 87vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -103,4 +103,15 @@ main{
 button{
     cursor: pointer;
     color: #fff;
+}
+
+footer{
+    background: #0079AB;
+    text-align: center;
+    height: 5vh;
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
